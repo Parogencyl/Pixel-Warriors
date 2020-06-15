@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <link href="mediaStyle.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="menuStyle.css" rel="styleSheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title> Pixel Warriors </title>
+</head>
+
+<body>
+
+
+    <article>
+        <div id="trapez"> </div>
+        <div id="beta"> BETA </div>
+        <a href="main.html">
+            <div id="logo"> </div>
+        </a>
+
+        <div id="menu">
+            <div id="buttons">
+                <div class="button" id="top">
+                    <div class="textPosition"> Statystyki </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Ekwipunek </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Tawerna </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Ranking </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Sklep </div>
+                </div>
+
+                <div id="specialShop">
+                    <div class="fas fa-shopping-cart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="center">
+            <div id="window">
+
+                <form method="post" action="">
+
+                    <div id="logText"> Login: </div>
+                    <input type="text" name="username" required>
+
+                    <div id="passText"> Password: </div>
+                    <input type="password" name="password" required>
+                    <span class="error"> <?php echo $passwordErr; ?> </span>
+
+                    <input type="submit" value="Zaloguj">
+
+                    <a htef="registration/registration.php">
+                        <div id="registration"> Rejestracja </div>
+                    </a>
+                </form>
+
+            </div>
+        </div>
+
+        <div id="footer">
+
+            <div class="button" id="buttonLog">
+                <div class="textPosition"> Wyloguj </div>
+            </div>
+
+            <!-- <div id="level"> Poziom: 100</div> -->
+            <div id="rubin"> <img src="../projekt_grafika/Inne/rubin.gif"> 412332</div>
+            <div id="monet"> <img src="../projekt_grafika/Inne/money.png"> 4122</div>
+
+            <div id="nick"> Parogencyl </div>
+
+
+            <div class="button" id="buttonLog" style="margin-left: 61%">
+                <div class="textPosition"> Ustawienia </div>
+            </div>
+
+        </div>
+
+    </article>
+
+</body>
+
+</html>

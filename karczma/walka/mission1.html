@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../../style.css" rel="stylesheet">
+    <link href="mission.css" rel="stylesheet">
+    <link href="../../mediaStyle.css" rel="stylesheet">
+
+    <title> Pixel Warriors </title>
+</head>
+
+<body>
+
+    <article>
+
+        <div id="logo"> </div>
+
+        <div id="menu">
+            <div id="level"> LVL: 135</div>
+            <div id="rubin"> RB: 2086 </div>
+            <div id="buttons">
+                <div class="button" id="top">
+                    <div class="textPosition"> Statystyki </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Ekwipunek </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Tawerna </div>
+                </div>
+
+                <div class="button">
+                    <div class="textPosition"> Ranking </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Budowa tawerny -->
+
+        <div id="center">
+
+            <section id="left">
+                <img src="../../projekt_grafika/Walka/Gracz/Rycerz_Brązowy.gif" width="100%" height="100%" rel="Rycerz" id="knight">
+                <div id="dmgKnight"> </div>
+                <div class="levelOfHealth">100%
+                    <div id="healthKnight"> </div>
+                </div>
+                <div id="knightBlock">
+                    <img src="graphics/Tarcza1_Pusty_Gif.gif" width="100%" height="100%" rel="sheild">
+                </div>
+                <button id="autoFight" onclick="autoFight()"> Szybka walka </button>
+            </section>
+
+            <section id="middle">
+
+                <div id="atackKnight">
+                    <img src="graphics/Miecz3_Gif_2.gif" width="100%" height="100%" rel="bron1" id="knightWeapon">
+
+                </div>
+
+                <button id="button1" onclick="normalAttack(0)"> Atak </button>
+                <button id="button2" onclick="block(1)"> Blok </button>
+                <button id="button3" onclick="powerfullAttack(2)"> Potężne uderzenie </button>
+
+                <div id="levelOfStamina"> 100%
+                    <div id="staminaBg"> </div>
+                    <div id="stamina"> </div>
+                </div>
+
+                <div id="helmetCharacter"></div>
+                <div id="armorCharacter"></div>
+                <div id="legsCharacter"></div>
+                <div id="bootsCharacter"></div>
+                <div id="swordCharacter"></div>
+                <div id="shieldCharacter"></div>
+                <div id="gloves1Character"></div>
+                <div id="gloves2Character"></div>
+
+                <div id="prizeBg"> </div>
+                <div id="prize">
+                    Monety: 1
+                    <img src="../../projekt_grafika/Inne/money.png" width="7%"> <br> Rubiny: 5231 <img src="../../projekt_grafika/Inne/rubin.gif"> <br> Doświadczenie: 4322 <br>
+                </div>
+                <div id="prizeItem" onmouseover="disableTooltip('.tooltipItem1', 'shieldSource')" onmouseout="enableTooltip('.tooltipItem1')"> </div>
+                <div class="tooltipItem1">
+                    <div class="itemPowerStat"></div>
+                </div>
+                <div id="lose"> Porażka </div>
+
+                <div id="newFight" onclick="setTimeout(function() {location.href='../tawerna.php'})"> </div>
+
+                <div id="atackEnemy">
+                    <img src="/../../projekt_grafika/Piwnica/Poziom2/szkietel1_bron.png" width="100%" height="100%" rel="bron1" id="enemyWeapon">
+
+                </div>
+
+            </section>
+
+            <section id="right">
+                <img src="../../projekt_grafika/Piwnica/Poziom2/szkietel1.png" width="100%" height="100%" rel="Przeciwnik" id="enemy">
+                <div id="dmgEnemy"> </div>
+                <div class="levelOfHealth">100%
+                    <div id="healthEnemy"> </div>
+                </div>
+
+                <div id="enemyBlock">
+                    <img src="graphics/Tarcza1_Pusty_Gif.gif" width="100%" height="100%" rel="sheildEnemy">
+                </div>
+
+                <div id="helmetCharacterEnemy"></div>
+                <div id="armorCharacterEnemy"></div>
+                <div id="legsCharacterEnemy"></div>
+                <div id="bootsCharacterEnemy"></div>
+                <div id="swordCharacterEnemy"></div>
+                <div id="shieldCharacterEnemy"></div>
+                <div id="gloves1CharacterEnemy"></div>
+                <div id="gloves2CharacterEnemy"></div>
+
+                <button id="surrender" onclick="surrender()"> Poddaje się </button>
+            </section>
+
+            <script src="script.js"></script>
+
+        </div>
+
+        <div id="footer">
+
+            <a href="">
+                <div class="button" id="buttonLog">
+                    <div class="textPosition"> Wyloguj </div>
+                </div>
+            </a>
+
+            <div id="nick"> Nick: Parogencyl </div>
+
+            <a href="">
+                <div class="button" id="buttonLog" style="margin-left: 50%">
+                    <div class="textPosition"> Ustawienia </div>
+                </div>
+            </a>
+
+        </div>
+
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url(../font/FSEX300.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pixel';
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#bgImage {
+    width: 100%;
+    height: 100%;
+    background-image: url(../projekt_grafika/images/Zamek1_Gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+article {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 2% 15%;
+    height: auto;
+    position: absolute;
+    padding-bottom: 2%;
+    border-radius: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 0 0 4px rgb(177, 145, 6);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 4px rgb(241, 9, 9);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: solid 3px black;
+    padding: 20px 5px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0 0 4px rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    padding: 20px 0;
+    background-color: rgba(122, 122, 122, 0.4);
+}
+
+p {
+    padding: 5px 30px;
+    font-size: 23px;
+    line-height: 40px;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+h5 {
+    font-size: 30px;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline black;
+    color: red;
+    margin: 20px 0 -10px 5%;
+}
+
+img {
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.grid-container div {
+    background-color: rgb(116, 114, 114);
+    padding: 5px 20px 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: padding 1s, border 1s;
+    border-width: 0 1px 1px 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.grid-container div a {
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.grid-container div:hover {
+    padding: 15px 20px 15px 20px;
+    border-width: 0 2px 2px 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+article>p {
+    margin-top: 0px;
+}
+
+#iconUp {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 0 9px 1px white;
+}
+
+#iconUp:hover {
+    box-shadow: 0px -2px 7px 3px rgb(37, 37, 37);
+}
+
+@media only screen and (max-width: 1250px) {
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 38px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h2 {
+        font-size: 41px;
+    }
+    h3 {
+        padding: 15px 5px;
+        font-size: 33px;
+    }
+    h4 {
+        font-size: 27px;
+    }
+    h5 {
+        font-size: 23px;
+    }
+    p {
+        font-size: 17px;
+        line-height: 35px;
+    }
+    img {
+        max-width: 70%;
+        margin-left: 15%;
+    }
+    article {
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    h2 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 29px;
+        padding: 10px 5px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+    h5 {
+        font-size: 19px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    img {
+        max-width: 70%;
+        margin-left: 15%;
+    }
+    article {
+        border-radius: 30px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .grid-container div {
+        font-size: 20px;
+        padding: 5px 15px 15px 10px;
+    }
+    #iconUp {
+        font-size: 21px;
+        right: 2%;
+        bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    img {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    article {
+        border-radius: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .grid-container div {
+        font-size: 17px;
+        padding: 4px 10px 10px 6px;
+    }
+    #iconUp {
+        font-size: 18px;
+        right: 1%;
+        bottom: 2%;
+    }
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../style.css" rel="stylesheet">
+    <link href="statystyki.css" rel="stylesheet">
+    <link href="statystykiRight.css" rel="stylesheet">
+    <link href="../mediaStyle.css" rel="stylesheet">
+    <link rel="icon" href="../projekt_grafika/images/Icona_gif.gif" type="image/icon" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title> Pixel Warriors </title>
+</head>
+
+<body>
+
+    <article>
+        <div id="logo"> </div>
+
+        <div id="menu">
+            <div id="level"> Poziom: 100</div>
+            <div id="rubin"> </div>
+            <div id="buttons">
+                <a href="statystyki.php">
+                    <div class="button" id="top">
+                        <div class="textPosition" style="text-shadow: 1px 1px 1px #ac7339;"> Statystyki </div>
+                    </div>
+                </a>
+
+                <a href="../ekwipunek/ekwipunek.php">
+                    <div class="button">
+                        <div class="textPosition"> Ekwipunek </div>
+                    </div>
+                </a>
+
+                <a href="../karczma/tawerna.php">
+                    <div class="button">
+                        <div class="textPosition"> Tawerna </div>
+                    </div>
+                </a>
+
+                <a href="../ranking/ranking.html">
+                    <div class="button">
+                        <div class="textPosition"> Spis graczy </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="button">
+                        <div class="textPosition"> Targowisko </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div id="specialShop">
+                        <div class="fas fa-shopping-cart"></div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="center">
+
+            <div id="backgroundLeft"></div>
+
+            <section id="left">
+                <div id="leftItems">
+                    <div class="one">
+                        <img id="helmet" onmouseover="disableTooltip('.tooltipItem1', 'helmetSource')" onmouseout="enableTooltip('.tooltipItem1')">
+                        <div class="tooltipItem1">
+                            <div class="itemName"> Wiejska czapka </div>
+
+                            <div class="itemPowerStat"> Obrona: +2% <br> Obrona: +2% <br> Obrona: +2% <br> Obrona: +2% <br> Obrona: +2% <br> Obrona: +2% <br>Obrona: +2% <br>Obrona: +2% <br>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="two">
+                        <img id="armor" onmouseover="disableTooltip('.tooltipItem2', 'armorSource')" onmouseout="enableTooltip('.tooltipItem2')">
+                    </div>
+
+                    <div class="three">
+                        <img id="legs" onmouseover="disableTooltip('.tooltipItem3', 'legsSource')" onmouseout="enableTooltip('.tooltipItem3')">
+
+                    </div>
+
+                    <div class="four">
+                        <img id="boot" onmouseover="disableTooltip('.tooltipItem4', 'bootSource')" onmouseout="enableTooltip('.tooltipItem4')">
+
+                    </div>
+
+                </div>
+
+                <div id="character">
+                    <div id="helmetCharacter"> </div>
+                    <div id="armorCharacter"> </div>
+                    <div id="legsCharacter"> </div>
+                    <div id="bootCharacter"> </div>
+                    <div id="necklaceCharacter"> </div>
+                    <div id="swordCharacter"> </div>
+                    <div id="shieldCharacter"> </div>
+                    <div id="glovesCharacter"> </div>
+                </div>
+
+                <div id="rightItems">
+                    <div class="one">
+                        <img id="necklace" onmouseover="disableTooltip('.tooltipItem5', 'necklaceSource')" onmouseout="enableTooltip('.tooltipItem5')">
+
+                    </div>
+
+                    <div class="two">
+                        <img id="sword" onmouseover="disableTooltip('.tooltipItem6', 'swordSource')" onmouseout="enableTooltip('.tooltipItem6')">
+
+                    </div>
+
+                    <div class="three">
+                        <img id="shield" onmouseover="disableTooltip('.tooltipItem7', 'shieldSource')" onmouseout="enableTooltip('.tooltipItem7')">
+
+                    </div>
+
+                    <div class="four">
+                        <img id="gloves" onmouseover="disableTooltip('.tooltipItem8', 'glovesSource')" onmouseout="enableTooltip('.tooltipItem8')">
+                        <div class="tooltipItem8">
+                            <div class="itemName"> Zniszczone rękawice </div>
+                            <div class="itemPowerStat">Atak: +4</div>
+                            <div class="itemLuckStat">Szczęście: +2%</div>
+                            <div class="itemArmorStat"> Obrona: +1%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="experience">
+                    <div id="backgroundExp"> </div>
+                    <div id="levelOfExperience"> </div>
+                    <div id="exp"> 185500/255000</div>
+                </div>
+
+            </section>
+
+            <div id="backgroundRight"></div>
+
+            <section id="right">
+
+                <div id="stat1" class="statSize">
+                    <div class="tooltip"> Siła:
+                        <span class="tooltiptext" style="width: 350%"> Zwiększa zadawane obrażenia wojownika. </span>
+                    </div>
+                    <div id="value1" class="valueSize"> 20 </div>
+                </div>
+
+                <div id="stat2" class="statSize">
+                    <div class="tooltip"> Inteligencja:
+                        <span class="tooltiptext"> Zwiększa zadawane obrażenia maga. </span>
+                    </div>
+                    <div id="value2" class="valueSize"> 5 </div>
+                </div>
+
+                <div id="stat3" class="statSize">
+                    <div class="tooltip"> Zręczność:
+                        <span class="tooltiptext"> Zwiększa zadawane obrażenia łowcy </span>
+                    </div>
+                    <div id="value3" class="valueSize"> 12 </div>
+                </div>
+
+                <div id="stat6" class="statSize">
+                    <div class="tooltip"> Szczęście:
+                        <span class="tooltiptext"> Możliwa szansa na zadanie większych obrażeń. </span>
+                    </div>
+                    <div id="value4" class="valueSize"> 15% </div>
+                </div>
+
+                <div id="stat4" class="statSize">
+                    <div class="tooltip"> Obrona fizyczna:
+                        <span class="tooltiptext"> Zmniejsza otrzymywane obrażenia od ataków fizycznych. </span>
+                    </div>
+                    <div id="value5" class="valueSize"> 10% </div>
+                </div>
+
+                <div id="stat5" class="statSize">
+                    <div class="tooltip"> Obrona magiczna:
+                        <span class="tooltiptext"> Zmniejsza otrzymywane obrażenia od ataków magicznych. </span>
+                    </div>
+                    <div id="value6" class="valueSize"> 6% </div>
+                </div>
+
+                <div class="plus">
+                    <div class="tooltip2">
+                        <span class="tooltiptext2"> 200RB </span>
+                    </div>
+                </div>
+                <div class="plus" style="top: 13.5%;">
+                    <div class="tooltip2">
+                        <span class="tooltiptext2"> 200RB </span>
+                    </div>
+                </div>
+                <div class="plus" style="top: 29%;">
+                    <div class="tooltip2">
+                        <span class="tooltiptext2"> 200RB </span>
+                    </div>
+                </div>
+                <div class="plus" style="top: 43.5%;">
+                    <div class="tooltip2">
+                        <span class="tooltiptext2"> 200RB </span>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+        </div>
+
+        <div id="footer">
+
+            <a href="../php/logout.php">
+                <div class="button" id="buttonLog">
+                    <div class="textPosition"> Wyloguj </div>
+                </div>
+            </a>
+
+            <div id="nick"> </div>
+
+            <a href="../settings/ustawienia.php">
+                <div class="button" id="buttonSet">
+                    <div class="textPosition"> Ustawienia </div>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- pobieranie eq z bazy -->
+
+        <script>
+            document.querySelector(".tooltipItem1>.itemPowerStat").style.height = "auto";
+            var element = document.querySelector(".tooltipItem1>.itemPowerStat");
+            var elementName = document.querySelector(".tooltipItem1>.itemName").clientHeight;
+            var heightElement = element.clientHeight;
+            document.querySelector(".tooltipItem1").style.height = (heightElement + elementName * 3) + "px";
+
+            var siteWidth = document.querySelector("html").clientWidth;
+            console.log(siteWidth);
+        </script>
+
+    </article>
+
+</body>
+
+</html>

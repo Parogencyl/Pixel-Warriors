@@ -1,0 +1,676 @@
+body {
+    font-family: 'Pixel';
+}
+
+button {
+    font-family: 'Pixel';
+}
+
+#left {
+    margin: 0 5%;
+    width: 20%;
+    height: 79%;
+    float: left;
+    margin-top: 1%;
+}
+
+#knight {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1%;
+}
+
+#enemy {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1%;
+}
+
+#dmgKnight {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 41%;
+    width: 10%;
+    height: 10%;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 0.15vw 0.15vw 0.1vw red;
+    z-index: 5;
+}
+
+#surrender {
+    width: 13%;
+    height: 4%;
+    position: absolute;
+    top: 84%;
+    left: 78%;
+    font-size: 1.2vw;
+    border: 2px solid red;
+    font-weight: bold;
+    background-color: #ffb3b3;
+    opacity: 0.8;
+    font-family: 'Pixel';
+}
+
+#surrender:hover {
+    opacity: 1;
+}
+
+#middle {
+    width: 40%;
+    height: 80%;
+    float: left;
+}
+
+#levelOfStamina {
+    width: 30%;
+    height: 3%;
+    border: 2px solid black;
+    position: absolute;
+    color: black;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    left: 35%;
+    top: 85%;
+}
+
+#staminaBg {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0.3;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: -2;
+}
+
+#stamina {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: -1;
+}
+
+#prizeBg {
+    width: 45%;
+    height: 20%;
+    position: absolute;
+    left: 27.5%;
+    top: 35%;
+    background-image: radial-gradient( white, gray);
+    border: 2px solid gray;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+#prize {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 27.5%;
+    bottom: 45%;
+    margin: 1%;
+    font-size: 1.6vw;
+    line-height: 130%;
+    text-shadow: 0 0 3px rgb(155, 50, 1);
+}
+
+#prizeItem {
+    width: 13%;
+    height: 17%;
+    position: absolute;
+    left: 53.5%;
+    bottom: 46%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tooltipItem1 {
+    position: absolute;
+    height: 20%;
+    left: 67.5%;
+    bottom: 38%;
+    width: 20%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.itemPowerStat {
+    position: absolute;
+    width: 85%;
+    height: auto;
+    left: 8%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 2vh;
+}
+
+#lose {
+    width: 32%;
+    height: auto;
+    position: absolute;
+    left: 30.7%;
+    top: 37%;
+    background-image: radial-gradient( red, rgb(105, 2, 2));
+    border: 2px solid rgb(105, 2, 2);
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 50%;
+    padding: 3%;
+    font-size: 3vw;
+    text-shadow: 0px 0px 6px black;
+}
+
+#newFight {
+    width: 15%;
+    height: 8%;
+    position: absolute;
+    left: 42.5%;
+    top: 62%;
+    background-image: url(../../projekt_grafika/Inne/zakoncz.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#atackKnight {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    left: 18%;
+    top: 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.knightAnimeAttack {
+    animation-name: attackKnight;
+    animation-duration: 1.2s;
+}
+
+@keyframes attackKnight {
+    0% {
+        left: 18%;
+        top: 40%;
+    }
+    35% {
+        top: 30%;
+    }
+    100% {
+        left: 72%;
+        transform: rotate(90deg);
+    }
+}
+
+#knightBlock {
+    position: absolute;
+    width: 28%;
+    height: 28%;
+    left: 1.5%;
+    top: 37%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+#enemyBlock {
+    position: absolute;
+    width: 28%;
+    height: 28%;
+    left: 71.2%;
+    top: 37%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+#atackEnemy {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    right: 18%;
+    top: 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.enemyAnimeAttack {
+    animation-name: attackEnemy;
+    animation-duration: 1.2s;
+}
+
+@keyframes attackEnemy {
+    0% {
+        right: 18%;
+        top: 40%;
+    }
+    35% {
+        top: 30%;
+    }
+    100% {
+        right: 70%;
+        transform: rotate(-90deg);
+    }
+}
+
+#button1 {
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    top: 75%;
+    left: 32.5%;
+    font-size: 2.5vh;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+
+#button2 {
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    font-size: 2.5vh;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+
+#button3 {
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    top: 75%;
+    left: 57.5%;
+    font-size: 1.8vh;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+
+#right {
+    margin: 0 5%;
+    width: 20%;
+    height: 79%;
+    float: left;
+    margin-top: 1%;
+}
+
+#dmgEnemy {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 41%;
+    width: 10%;
+    height: 10%;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 0.15vw 0.15vw 0.1vw red;
+    z-index: 5;
+}
+
+.levelOfHealth {
+    width: 19.7%;
+    height: 3%;
+    border: 3px solid black;
+    position: absolute;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 2.5vh;
+    font-weight: bold;
+    z-index: 1;
+    top: 78.5%;
+    left: 5.1%;
+}
+
+#healthBgKnight {
+    width: 19.9%;
+    height: 3.4%;
+    position: absolute;
+    top: 78.5%;
+    left: 5.1%;
+}
+
+#healthKnight {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 0;
+}
+
+#healthBgEnemy {
+    width: 19.9%;
+    height: 3.4%;
+    position: absolute;
+    top: 78.5%;
+    left: 75.1%;
+}
+
+#healthEnemy {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 0;
+}
+
+#autoFight {
+    width: 13%;
+    height: 4%;
+    position: absolute;
+    top: 84%;
+    right: 78%;
+    font-size: 1.2vw;
+    border: 2px solid red;
+    font-weight: bold;
+    background-color: #ffb3b3;
+    opacity: 0.8;
+    text-align: center;
+    font-family: 'Pixel';
+}
+
+#autoFight:hover {
+    opacity: 1;
+}
+
+.button:hover {
+    text-shadow: none;
+}
+
+#buttonLog:hover {
+    text-shadow: none;
+}
+
+
+/* Nakładanie przedmiotów na postać */
+
+#helmetCharacter {
+    width: 18%;
+    height: 18.5%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 6.7%;
+    top: 31.8%;
+}
+
+#armorCharacter {
+    width: 19.9%;
+    height: 24%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 5.65%;
+    top: 40%;
+}
+
+#legsCharacter {
+    width: 17.4%;
+    height: 19.5%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 7.05%;
+    top: 51.8%;
+}
+
+#bootsCharacter {
+    width: 18.8%;
+    height: 21.2%;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: 6.5%;
+    top: 56.2%;
+}
+
+#swordCharacter {
+    width: 15%;
+    height: 19%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 1.6%;
+    top: 46.1%;
+    transform: rotate(-50deg);
+}
+
+#shieldCharacter {
+    width: 9%;
+    height: 10%;
+    background-size: 100% 100%;
+    z-index: 4;
+    position: absolute;
+    left: 15.6%;
+    top: 52.2%;
+    background-image: url(../../Przedmioty/Tarcza1_Postać_Pusty_Gif.gif);
+}
+
+#gloves1Character {
+    width: 2.2%;
+    height: 2.2%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    left: 9.9%;
+    top: 57.1%;
+}
+
+#gloves2Character {
+    width: 2.2%;
+    height: 2.2%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 19.4%;
+    top: 57%;
+    transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+}
+
+
+/* Nakładanie przedmiotów na postać Przeciwnika */
+
+#helmetCharacterEnemy {
+    width: 18%;
+    height: 18.5%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 76.7%;
+    top: 31.8%;
+}
+
+#armorCharacterEnemy {
+    width: 19.9%;
+    height: 24%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 75.65%;
+    top: 40%;
+}
+
+#legsCharacterEnemy {
+    width: 17.4%;
+    height: 19.5%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 77.05%;
+    top: 51.8%;
+}
+
+#bootsCharacterEnemy {
+    width: 18.8%;
+    height: 21.2%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 76.5%;
+    top: 56.2%;
+}
+
+#swordCharacterEnemy {
+    width: 15%;
+    height: 19%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 71.6%;
+    top: 46.1%;
+    transform: rotate(-50deg);
+}
+
+#shieldCharacterEnemy {
+    width: 9%;
+    height: 10%;
+    background-size: 100% 100%;
+    z-index: 4;
+    position: absolute;
+    left: 85.6%;
+    top: 52.2%;
+}
+
+#gloves1CharacterEnemy {
+    width: 2.2%;
+    height: 2.2%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    left: 79.9%;
+    top: 57.1%;
+}
+
+#gloves2CharacterEnemy {
+    width: 2.2%;
+    height: 2.2%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 89.4%;
+    top: 57%;
+    transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+}
+
+@media screen and (max-width: 1300px) {
+    #button1 {
+        font-size: 2.2vh;
+    }
+    #button2 {
+        font-size: 2.2vh;
+    }
+    #button3 {
+        font-size: 1.6vh;
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1100px) {
+    #win {
+        height: 8%;
+        font-size: 3.8vh;
+        padding-top: 2.5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #button1 {
+        font-size: 2.2vh;
+        height: 6%;
+    }
+    #button2 {
+        font-size: 2.2vh;
+        height: 6%;
+    }
+    #button3 {
+        font-size: 1.6vh;
+    }
+    #surrender {
+        font-size: 1.1vw;
+    }
+    #autoFight {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #win {
+        height: 7%;
+        font-size: 3vh;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #atackKnight {
+        width: 20%;
+        height: 15%;
+    }
+    #atackEnemy {
+        width: 20%;
+        height: 15%;
+    }
+    #left {
+        margin: 0;
+        width: 29%;
+        margin-left: 1%;
+    }
+    #right {
+        margin: 0;
+        width: 29%;
+        margin-right: 1%;
+    }
+    #attackEnemy {
+        width: 20%;
+        height: 20%;
+    }
+    #attackKnight {
+        width: 20%;
+        height: 20%;
+    }
+    .levelOfHealth {
+        width: 29%;
+    }
+    #button1 {
+        font-size: 2.5vw;
+    }
+    #button2 {
+        font-size: 2.5vw;
+    }
+    #button3 {
+        font-size: 1.5vw;
+    }
+    #surrender {
+        font-size: 2vw;
+    }
+    .levelOfHealth {
+        font-size: 2.2vh;
+    }
+    #levelOfStamina {
+        font-size: 2.2vh;
+    }
+}

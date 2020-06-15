@@ -1,0 +1,532 @@
+#center {
+    background-image: url(../projekt_grafika/images/Sklep_Gif.gif);
+}
+
+#backgroundLeft {
+    position: absolute;
+    width: 45%;
+    height: 55%;
+    top: 30%;
+    left: 2%;
+    opacity: 0.4;
+    border-radius: 5%;
+}
+
+#left {
+    position: absolute;
+    width: 45%;
+    height: 53%;
+    top: 31%;
+    left: 2%;
+}
+
+#right {
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    top: 25%;
+    left: 50%;
+}
+
+#backpack {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#backpackBg {
+    width: 99%;
+    height: 40%;
+    position: absolute;
+    left: -0.7%;
+    top: 0;
+    background: white;
+    opacity: 0.2;
+    border-radius: 0% 0% 20px 20px;
+}
+
+#item1 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item2 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item3 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item4 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item5 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item6 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+    margin-left: 10%;
+}
+
+#item7 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item8 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#item9 {
+    width: 19%;
+    height: 19%;
+    margin: 0.25%;
+}
+
+#shopItems {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 78%;
+    left: 0;
+}
+
+#shopItemsBg {
+    width: 100%;
+    height: 22%;
+    position: absolute;
+    top: 77%;
+    left: -1.5%;
+    background: gray;
+    opacity: 0.6;
+}
+
+#item1Shop {
+    width: 19%;
+    height: 97%;
+    margin: 0.25%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item2Shop {
+    width: 19%;
+    height: 97%;
+    margin: 0.25%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item3Shop {
+    width: 19%;
+    height: 97%;
+    margin: 0.25%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item4Shop {
+    width: 19%;
+    height: 97%;
+    margin: 0.25%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item5Shop {
+    width: 19%;
+    height: 97%;
+    margin: 0.25%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#positionItem1Shop {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#positionItem2Shop {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#positionItem3Shop {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#positionItem4Shop {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#positionItem5Shop {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.tooltipItem1Shop {
+    position: absolute;
+    left: -40%;
+    bottom: -5%;
+    z-index: 10;
+    width: 40%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+}
+
+.tooltipItem2Shop {
+    position: absolute;
+    left: -20.5%;
+    bottom: -5%;
+    z-index: 10;
+    width: 40%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+}
+
+.tooltipItem3Shop {
+    position: absolute;
+    left: -1%;
+    bottom: -5%;
+    z-index: 10;
+    width: 40%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+}
+
+.tooltipItem4Shop {
+    position: absolute;
+    left: 18.5%;
+    bottom: -5%;
+    z-index: 10;
+    width: 40%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+}
+
+.tooltipItem5Shop {
+    position: absolute;
+    left: 38%;
+    bottom: -5%;
+    z-index: 10;
+    width: 40%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+}
+
+.tooltipItem1Eq {
+    position: absolute;
+    left: -40%;
+    top: 0.5%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem2Eq {
+    position: absolute;
+    left: -21%;
+    top: 0.5%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem3Eq {
+    position: absolute;
+    left: -1%;
+    top: 0.5%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem4Eq {
+    position: absolute;
+    left: 18%;
+    top: 0.5%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem5Eq {
+    position: absolute;
+    left: 38%;
+    top: 0.5%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem6Eq {
+    position: absolute;
+    left: -30.5%;
+    top: 20%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem7Eq {
+    position: absolute;
+    left: -11%;
+    top: 20%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem8Eq {
+    position: absolute;
+    left: 8.5%;
+    top: 20%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+.tooltipItem9Eq {
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+
+#newItemsButton {
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 5;
+    top: 63.5%;
+    right: 0%;
+    background-color: rgb(51, 50, 94);
+    color: #b63b03;
+    text-align: center;
+    padding: 1.5% 2%;
+    font-size: 1.3vw;
+    font-family: 'Pixel';
+    opacity: 0.6;
+    border-left: 2px solid rgb(36, 35, 66);
+    border-top: 2px solid rgb(36, 35, 66);
+    border-bottom: 2px solid rgb(36, 35, 66);
+    font-weight: bold;
+    text-shadow: 0 0 1.5px white;
+    border-radius: 20px 0 0 20px;
+    padding-right: 6.5%;
+}
+
+#newItemsButton:hover {
+    opacity: 0.85;
+    font-size: 1.5vw;
+}
+
+#toolsShop1 {
+    position: absolute;
+    left: -25%;
+    bottom: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 25%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+    z-index: 10;
+}
+
+.buyShop {
+    width: 100%;
+    font-size: 1.5vw;
+    height: 33%;
+    font-family: 'Pixel';
+    text-align: center;
+    text-shadow: 0px 0px 1px gold;
+}
+
+.buyShop:hover {
+    color: red;
+    text-shadow: 0px 0px 3px #b63b03;
+}
+
+.compareShop {
+    width: 100%;
+    font-size: 1.5vw;
+    height: 33%;
+    font-family: 'Pixel';
+    text-align: center;
+    text-shadow: 0px 0px 1px gold;
+}
+
+.compareShop:hover {
+    color: gold;
+    text-shadow: 0px 0px 3px #b63b03;
+}
+
+#toolsShop2 {
+    position: absolute;
+    left: -5.5%;
+    bottom: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 25%;
+    z-index: 10;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+#toolsShop3 {
+    position: absolute;
+    left: 13.7%;
+    bottom: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 25%;
+    z-index: 10;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+#toolsShop4 {
+    position: absolute;
+    left: 33.2%;
+    bottom: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 25%;
+    z-index: 10;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+#toolsShop5 {
+    position: absolute;
+    left: 52.7%;
+    bottom: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 25%;
+    z-index: 10;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+#tools1 {
+    left: -32%;
+    top: 0.5%;
+    visibility: hidden;
+}
+
+#tools2 {
+    left: -12.7%;
+    top: 0.5%;
+    visibility: hidden;
+}
+
+#tools3 {
+    left: 6.7%;
+    top: 0.5%;
+    visibility: hidden;
+}
+
+#tools4 {
+    left: 26.2%;
+    top: 0.5%;
+    visibility: hidden;
+}
+
+#tools5 {
+    left: 45.8%;
+    top: 0.5%;
+    visibility: hidden;
+}
+
+#tools6 {
+    left: -22.4%;
+    top: 20%;
+    visibility: hidden;
+}
+
+#tools7 {
+    left: -3%;
+    top: 20%;
+    visibility: hidden;
+}
+
+#tools8 {
+    left: 16.4%;
+    top: 20%;
+    visibility: hidden;
+}
+
+#tools9 {
+    left: 35.8%;
+    top: 20%;
+    visibility: visible;
+}
+
+#newItemsButton img {
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    height: 70%;
+}

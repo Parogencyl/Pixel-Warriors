@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url(font/FSEX300.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(projekt_grafika/images/Logowanie2.gif);
+}
+
+article {
+    width: 80%;
+    height: 95%;
+    min-height: 350px;
+    padding: 0;
+    border: black 5px solid;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 100%;
+    height: 15%;
+    background-image: url(projekt_grafika/images/Baner_Gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#beta {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    left: 91.5%;
+    top: 2.7%;
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: 2vw;
+    z-index: 2;
+}
+
+#trapez {
+    width: 7%;
+    height: 7%;
+    z-index: 2;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 92%;
+    top: -3.2%;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 2vw solid yellow;
+}
+
+#menu {
+    width: 100%;
+    height: 10%;
+    background-color: #b3b3b3;
+}
+
+#buttons {
+    width: 100%;
+    height: 11%;
+    position: absolute;
+    left: 0%;
+}
+
+#rubin {
+    font-family: 'Pixel';
+    font-size: 1.6vw;
+    position: absolute;
+    left: 28%;
+    top: 91%;
+    text-shadow: 0px 1px 2px black;
+    color: #ce0000;
+    width: 15%;
+    text-align: left;
+}
+
+#rubin img {
+    position: absolute;
+    left: -19%;
+    top: 0%;
+    height: 100%;
+}
+
+#monet {
+    font-family: 'Pixel';
+    font-size: 1.6vw;
+    position: absolute;
+    left: 28%;
+    top: 95.5%;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px black;
+    color: gold;
+    width: 15%;
+    text-align: left;
+}
+
+#monet img {
+    position: absolute;
+    left: -22%;
+    top: 0%;
+    height: 100%;
+}
+
+.button {
+    width: 15.5%;
+    margin-left: 3%;
+    margin-top: 1.2%;
+    height: 50%;
+    border: #404040 2px solid;
+    background-image: linear-gradient(gray, #a6a6a6, gray);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    position: relative;
+    font-size: 2.8vh;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Pixel';
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    border-radius: 3px;
+}
+
+#specialShop {
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 1.5vw;
+    float: left;
+    position: relative;
+}
+
+#specialShop:hover {
+    color: rgb(153, 130, 1);
+}
+
+.textPosition {
+    width: 100%;
+    height: 100%;
+    margin-top: 4.5%;
+}
+
+.button:hover {
+    text-shadow: 1px 1px 1px #ac7339;
+}
+
+#buttonLog {
+    margin-top: 1.5%
+}
+
+#buttonLog:hover {
+    text-shadow: 1px 1px 1px red;
+}
+
+#buttonSet {
+    float: right;
+    right: 3%;
+}
+
+#buttonSet:hover {
+    text-shadow: 1px 1px 1px red;
+}
+
+#center {
+    width: 100%;
+    height: 65%;
+    background-image: url(projekt_grafika/images/gallery/ZamekGif.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#footer {
+    width: 100%;
+    height: 10%;
+    background-color: #b3b3b3;
+}
+
+#nick {
+    font-family: 'Pixel';
+    font-size: 1.9vw;
+    position: absolute;
+    left: 41%;
+    top: 93%;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    color: #b30000;
+    width: 30%;
+    text-align: center;
+}

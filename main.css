@@ -1,0 +1,249 @@
+body {
+    font-family: 'Pixel';
+}
+
+#window {
+    width: 40%;
+    height: 45%;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    background-color: darkorange;
+    border: 6px solid #804000;
+}
+
+#logText {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 15%;
+    top: 6%;
+}
+
+#aboutGame {
+    width: 30%;
+    left: 35%;
+    bottom: 3%;
+    position: absolute;
+    text-align: center;
+    font-size: 1.6vw;
+    text-shadow: 0 0 3px white;
+}
+
+#aboutGame a {
+    color: black;
+}
+
+input[type='text'] {
+    width: 60%;
+    padding: 1.5%;
+    position: absolute;
+    left: 20%;
+    top: 16%;
+    border: solid 3px #804000;
+    font-size: 1.2vw;
+    background-color: silver;
+    font-family: 'Pixel';
+}
+
+#passText {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 15%;
+    top: 38%;
+}
+
+input[type='password'] {
+    width: 60%;
+    padding: 1.5%;
+    position: absolute;
+    left: 20%;
+    top: 48%;
+    border: solid 3px #804000;
+    font-size: 1.2vw;
+    background-color: silver;
+    font-family: 'Pixel';
+}
+
+.error {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 63%;
+    color: red;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+input[type='submit'] {
+    padding: 1.5%;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 72%;
+    font-size: 1vw;
+    border: #404040 3px solid;
+    background-image: linear-gradient(#a6a6a6, gray, #a6a6a6);
+    font-family: 'Pixel';
+    font-size: 1.4vw;
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#registration {
+    width: 40%;
+    height: auto;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#registration:hover {
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.4vw;
+}
+
+input[type='submit']:hover {
+    text-shadow: 1px 1px 1px #804000;
+}
+
+.button:hover {
+    text-shadow: none;
+}
+
+#buttonLog:hover {
+    text-shadow: none;
+}
+
+@media screen and (max-width: 1300px) {
+    #window {
+        border: 2px solid #804000;
+        height: 40%;
+        top: 37%;
+        font-size: 1.8vw;
+    }
+    input[type='text'] {
+        border: solid 2px #804000;
+        padding: 1%;
+        font-size: 1.8vw;
+    }
+    input[type='password'] {
+        border: solid 2px #804000;
+        padding: 1%;
+        font-size: 1.8vw;
+    }
+    input[type='submit'] {
+        border: solid 2px #404040;
+        padding: 1%;
+        font-size: 1.8vw;
+    }
+    #logText {
+        font-size: 1.8vw;
+    }
+    #passText {
+        font-size: 1.8vw;
+    }
+    #registration {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #window {
+        border: 2px solid #804000;
+        height: 36%;
+        top: 39%;
+        font-size: 1.8vw;
+    }
+    input[type='text'] {
+        border: solid 1px #804000;
+        padding: 1%;
+        font-size: 1.8vw;
+    }
+    input[type='password'] {
+        border: solid 1px #804000;
+        padding: 1%;
+        font-size: 1.8vw;
+    }
+    input[type='submit'] {
+        border: solid 1px #404040;
+        padding: 1%;
+        font-size: 1.8vw;
+    }
+    #logText {
+        font-size: 1.8vw;
+    }
+    #passText {
+        font-size: 1.8vw;
+    }
+    #registration {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    #window {
+        border: 2px solid #804000;
+        height: 36%;
+        top: 39%;
+    }
+    input[type='text'] {
+        border: solid 1px #804000;
+        padding: 2%;
+        font-size: 1.9vw;
+    }
+    input[type='password'] {
+        border: solid 1px #804000;
+        padding: 2%;
+        font-size: 1.9vw;
+    }
+    input[type='submit'] {
+        border: solid 1px #404040;
+        padding: 2%;
+        font-size: 1.9vw;
+    }
+    #logText {
+        font-size: 1.9vw;
+    }
+    #passText {
+        font-size: 1.9vw;
+    }
+    #registration {
+        font-size: 1.9vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #window {
+        border: 1px solid #804000;
+        height: 32%;
+        top: 42%;
+    }
+    input[type='text'] {
+        border: solid 1px #804000;
+        padding: 2%;
+        font-size: 2.5vw;
+    }
+    input[type='password'] {
+        border: solid 1px #804000;
+        padding: 2%;
+        font-size: 2.5vw;
+    }
+    input[type='submit'] {
+        border: solid 1px #404040;
+        padding: 2%;
+        font-size: 2.5vw;
+    }
+    #logText {
+        font-size: 2.5vw;
+    }
+    #passText {
+        font-size: 2.5vw;
+    }
+    #registration {
+        font-size: 2.5vw;
+    }
+}

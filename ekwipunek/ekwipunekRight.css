@@ -1,0 +1,395 @@
+#right {
+    width: 41%;
+    height: 52%;
+    position: absolute;
+    left: 58%;
+    top: 32%;
+}
+
+#backgroundRight {
+    width: 42%;
+    height: 53%;
+    position: absolute;
+    left: 56.7%;
+    top: 30.5%;
+    background-color: #fff;
+    opacity: 0.3;
+    border-radius: 5%;
+    border: solid black;
+}
+
+#item1 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item2 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25% 0.25% 0.25% 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item3 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25% 0.25% 0.25% 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item4 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item5 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item6 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item7 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item8 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item9 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#positionItem1 {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#positionItem2 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem3 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem4 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem5 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem6 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem7 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem8 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem9 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.tooltipItem1Eq {
+    position: absolute;
+    left: -50.3%;
+    top: 1%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools1 {
+    position: absolute;
+    left: -32%;
+    top: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.sell {
+    width: 100%;
+    font-size: 1.4vw;
+    height: 33%;
+    font-family: 'Pixel';
+    text-align: center;
+    text-shadow: 0px 0px 1px gold;
+}
+
+.sell:hover {
+    color: green;
+    text-shadow: 0px 0px 3px #b63b03;
+}
+
+.upgrade {
+    width: 100%;
+    font-size: 1.4vw;
+    height: 33%;
+    font-family: 'Pixel';
+    text-align: center;
+    text-shadow: 0px 0px 1px gold;
+}
+
+.upgrade:hover {
+    color: gold;
+    text-shadow: 0px 0px 3px #b63b03;
+}
+
+.compare {
+    width: 100%;
+    font-size: 1.4vw;
+    height: 33%;
+    font-family: 'Pixel';
+    text-align: center;
+    text-shadow: 0px 0px 1px gold;
+}
+
+.compare:hover {
+    color: red;
+    text-shadow: 0px 0px 3px #b63b03;
+}
+
+.tooltipItem2Eq {
+    position: absolute;
+    left: -17.8%;
+    top: 1%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools2 {
+    position: absolute;
+    left: 0.4%;
+    top: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem3Eq {
+    position: absolute;
+    left: 14.5%;
+    top: 1%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools3 {
+    position: absolute;
+    left: 33.2%;
+    top: 0%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem4Eq {
+    position: absolute;
+    left: -50.3%;
+    top: 34%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools4 {
+    position: absolute;
+    left: -32%;
+    top: 34%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem5Eq {
+    position: absolute;
+    left: -17.8%;
+    top: 34%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools5 {
+    position: absolute;
+    left: 0.4%;
+    top: 34%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem6Eq {
+    position: absolute;
+    left: 14.5%;
+    top: 34%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools6 {
+    position: absolute;
+    left: 33.1%;
+    top: 34%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem7Eq {
+    position: absolute;
+    left: -50.3%;
+    bottom: 1%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools7 {
+    position: absolute;
+    left: -32%;
+    top: 66%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem8Eq {
+    position: absolute;
+    left: -17.8%;
+    bottom: 1%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools8 {
+    position: absolute;
+    left: 0.4%;
+    top: 66%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+}
+
+.tooltipItem9Eq {
+    position: absolute;
+    left: 14.6%;
+    bottom: 1%;
+    width: 50%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#tools9 {
+    position: absolute;
+    left: 33.1%;
+    top: 66%;
+    padding-bottom: 3.5%;
+    padding-top: 2.5%;
+    height: auto;
+    width: 32%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Inne/Tooltip2.png);
+    color: #b63b03;
+    visibility: none;
+}

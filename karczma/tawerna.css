@@ -1,0 +1,354 @@
+body {
+    font-family: 'Pixel';
+}
+
+#center {
+    background-image: url(graphics/Tawerna_Normalna_Gif.gif);
+}
+
+#buttonOpen {
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    left: 5.5%;
+    top: 42%;
+    background-color: white;
+    border-radius: 50% 50% 0% 0%;
+    display: block;
+    opacity: 0.05;
+    z-index: 1;
+}
+
+#buttonClose {
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    left: 5.5%;
+    top: 42%;
+    background-color: white;
+    border-radius: 50% 50% 0% 0%;
+    display: block;
+    opacity: 0;
+    z-index: 0;
+}
+
+#mission1 {
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    left: 55%;
+    top: 26%;
+    display: none;
+    border-radius: 20px 20px 0 0;
+    border: 3px solid #303030;
+    border-bottom: none;
+    z-index: 5;
+}
+
+#openMission1 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    top: 39%;
+    display: none;
+    border-radius: 20px;
+    border-top: none;
+    z-index: 5;
+}
+
+#mission2 {
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    left: 55%;
+    top: 47%;
+    display: none;
+    border-radius: 20px 20px 0 0;
+    border: 3px solid #303030;
+    border-bottom: none;
+    z-index: 5;
+}
+
+#openMission2 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+    display: none;
+    border-radius: 20px;
+    border-top: none;
+    z-index: 5;
+}
+
+#mission3 {
+    width: 40%;
+    height: 13%;
+    position: absolute;
+    left: 55%;
+    top: 68%;
+    display: none;
+    border-radius: 20px 20px 0 0;
+    border: 3px solid #303030;
+    border-bottom: none;
+    z-index: 5;
+}
+
+#openMission3 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    top: 81%;
+    display: none;
+    border-radius: 20px;
+    border-top: none;
+    z-index: 5;
+}
+
+.opacityText1 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    opacity: 0.75;
+}
+
+.opacityText2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    opacity: 0.75;
+}
+
+.opacityText3 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    opacity: 0.75;
+}
+
+.text {
+    margin-left: 5%;
+    width: 90%;
+    height: 80%;
+    font-size: 1.25vw;
+    text-shadow: 0px 0px 1px black;
+}
+
+.takeMission {
+    height: auto;
+    width: 100%;
+    background-color: #cc9900;
+    border-radius: 0 0 18px 18px;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border: solid 3px #806000;
+}
+
+.takeMission:hover {
+    text-shadow: 0 0 1px #ff3333;
+    border: solid 3px #800000;
+}
+
+#arrow1 {
+    width: 22%;
+    height: 3%;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    transform: rotate(-18deg);
+    opacity: 0.8;
+    display: none;
+    z-index: 5;
+}
+
+#arrow2 {
+    width: 22%;
+    height: 3%;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 31%;
+    top: 55%;
+    opacity: 0.8;
+    display: none;
+    z-index: 5;
+}
+
+#arrow3 {
+    width: 22%;
+    height: 3%;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    transform: rotate(18deg);
+    opacity: 0.8;
+    display: none;
+    z-index: 5;
+}
+
+#timeStamina {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 74%;
+    left: 23.5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Pixel';
+    text-shadow: 1px 2px 2px yellow;
+    z-index: 4;
+    background-color: darkgray;
+    border: 0.15vw solid transparent;
+    border-image: linear-gradient(30deg, black, darkgray, gray, black);
+    border-image-slice: 1;
+    padding: 0.6%;
+}
+
+#stamina {
+    position: absolute;
+    width: 50%;
+    height: 3.5%;
+    top: 83.4%;
+    left: 2%;
+    z-index: 5;
+    display: block;
+    text-align: center;
+    font-family: 'Pixel';
+    font-size: 2.5vh;
+    font-weight: bold;
+    background-color: none;
+    text-shadow: 0px 1px 1px red;
+}
+
+#staminaValue {
+    z-index: 3;
+    background-color: yellow;
+    position: absolute;
+    width: 50%;
+    height: 3.5%;
+    top: 83%;
+    left: 2%;
+}
+
+#staminaBg {
+    z-index: 0;
+    background-image: linear-gradient(to left, rgb(216, 216, 216) 5%, rgb(37, 37, 37));
+    position: absolute;
+    width: 50%;
+    height: 3.5%;
+    top: 83%;
+    left: 2%;
+    box-shadow: 0px 0px 8px 5px rgb(248, 152, 42);
+    opacity: 1;
+}
+
+@media screen and (min-width: 1400px) and (max-height: 550px) {
+    .text {
+        font-size: 1vw;
+    }
+    .takeMission {
+        font-size: 1vw;
+    }
+}
+
+@media screen and (max-width: 1400px) and (max-height: 500px) {
+    .text {
+        font-size: 1.1vw;
+    }
+    .takeMission {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-height: 500px) {
+    .text {
+        font-size: 1.4vw;
+    }
+    .takeMission {
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-height: 500px) {
+    .text {
+        font-size: 1.6vw;
+    }
+    .takeMission {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 800px) and (max-height: 500px) {
+    .text {
+        font-size: 1.3vw;
+    }
+    .takeMission {
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width: 700px) and (max-height: 500px) {
+    .text {
+        font-size: 1.5vw;
+    }
+    .takeMission {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 500px) {
+    .text {
+        font-size: 1.9vw;
+    }
+    .takeMission {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #timeStamina {
+        top: 25.5%;
+    }
+    #stamina {
+        top: 36.8%
+    }
+}
+
+#arrowCellar {
+    width: 12%;
+    height: 8%;
+    position: absolute;
+    top: 52%;
+    left: 75%;
+    background-image: url(../projekt_grafika/Inne/strzalka.png);
+    background-size: 100% 100%;
+    animation-name: cellar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cellar {
+    0% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(1.15);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

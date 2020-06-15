@@ -1,0 +1,329 @@
+body {
+    font-family: 'Pixel';
+}
+
+#center {
+    background-image: url(../projekt_grafika/images/piwnica/cellar.png);
+}
+
+#door1 {
+    width: 16%;
+    height: 15%;
+    position: absolute;
+    top: 29.5%;
+    left: 64%;
+}
+
+#door2 {
+    width: 16%;
+    height: 15%;
+    position: absolute;
+    top: 29.5%;
+    left: 39%;
+}
+
+#door3 {
+    width: 17.5%;
+    height: 22%;
+    position: absolute;
+    top: 34.5%;
+    left: 8%;
+    transform: rotate(-20deg);
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#monster1 {
+    width: 35%;
+    height: 53%;
+    position: absolute;
+    top: 27%;
+    left: 32.5%;
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 3px solid gray;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    display: none;
+    z-index: 1;
+}
+
+#numberOfMonsters1 {
+    width: 100%;
+    height: 9%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#picture1 {
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Piwnica/Poziom1/Przeciwnik2_Gif.gif);
+}
+
+#timeFight1 {
+    width: 20%;
+    height: auto;
+    padding: 1% 0;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 2px rgb(235, 163, 8);
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+#name1 {
+    width: 50%;
+    height: auto;
+    padding: 1% 0;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    font-size: 1.45vw;
+    text-align: center;
+    color: rgb(201, 122, 19);
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    background-color: rgba(83, 83, 83, 0.7);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#levelOfMonster1 {
+    width: 100%;
+    height: 9%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#monster2 {
+    width: 35%;
+    height: 53%;
+    position: absolute;
+    top: 27%;
+    left: 32.5%;
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 3px solid gray;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    display: none;
+}
+
+#numberOfMonsters2 {
+    width: 100%;
+    height: 9%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#picture2 {
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Piwnica/Poziom1/Przeciwnik2_Gif.gif);
+}
+
+#timeFight2 {
+    width: 20%;
+    height: auto;
+    padding: 1% 0;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 2px rgb(235, 163, 8);
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+#name2 {
+    width: 50%;
+    height: auto;
+    padding: 1% 0;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    font-size: 1.45vw;
+    text-align: center;
+    color: rgb(201, 122, 19);
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    background-color: rgba(83, 83, 83, 0.7);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#levelOfMonster2 {
+    width: 100%;
+    height: 9%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#monster3 {
+    width: 35%;
+    height: 53%;
+    position: absolute;
+    top: 27%;
+    left: 32.5%;
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 3px solid gray;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    display: none;
+}
+
+#numberOfMonsters3 {
+    width: 100%;
+    height: 9%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#picture3 {
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Piwnica/Poziom1/Przeciwnik2_Gif.gif);
+}
+
+#timeFight3 {
+    width: 20%;
+    height: auto;
+    padding: 1% 0;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 2px rgb(235, 163, 8);
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+}
+
+#name3 {
+    width: 50%;
+    height: auto;
+    padding: 1% 0;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    font-size: 1.45vw;
+    text-align: center;
+    color: rgb(201, 122, 19);
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    background-color: rgba(83, 83, 83, 0.7);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#levelOfMonster3 {
+    width: 100%;
+    height: 9%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+#doorClose {
+    width: 12%;
+    height: auto;
+    position: absolute;
+    left: 44%;
+    top: 82%;
+    background: white;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0.6% 0;
+    z-index: 1;
+}
+
+#arrowTawerna {
+    width: 12%;
+    height: 8%;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: rotateX(50deg);
+    background-image: url(../projekt_grafika/Inne/strzalka2.png);
+    background-size: 100% 100%;
+    animation-name: tawerna;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tawerna {
+    0% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(1.15);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes monster1 {
+    0% {
+        width: 16%;
+        height: 15%;
+        top: 29.5%;
+        left: 64%;
+    }
+    100% {
+        top: 27%;
+        left: 32.5%;
+        width: 35%;
+        height: 53%;
+    }
+}
+
+@keyframes monster2 {
+    0% {
+        width: 16%;
+        height: 15%;
+        top: 29.5%;
+        left: 39%;
+    }
+    100% {
+        top: 27%;
+        left: 32.5%;
+        width: 35%;
+        height: 53%;
+    }
+}
+
+@keyframes monster3 {
+    0% {
+        width: 17.5%;
+        height: 22%;
+        top: 34.5%;
+        left: 8%;
+    }
+    100% {
+        top: 27%;
+        left: 32.5%;
+        width: 35%;
+        height: 53%;
+    }
+}

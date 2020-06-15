@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url(../font/FSEX300.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(../projekt_grafika/Zamek_Gif.gif);
+    background-size: cover;
+}
+
+article {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    margin: 1% 0;
+    border: 2px solid black;
+    font-family: 'Pixel';
+}
+
+#registration {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(158, 157, 157, 0.911);
+}
+
+#logo {
+    width: 100%;
+    height: 13%;
+    background-image: url(../projekt_grafika/Menu/Baner_Gif.gif);
+    background-size: 100% 100%;
+}
+
+#title {
+    text-align: center;
+    font-size: 2.7vw;
+    text-shadow: 0 2px 4px rgb(218, 216, 216);
+    color: rgb(209, 109, 28);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 1%;
+    animation-name: glow;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(161, 65, 65), 0 0 30px #962020, 0 0 40px #640707;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #6462db, 0 0 30px #392cb1, 0 0 40px rgb(14, 6, 88);
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(161, 65, 65), 0 0 30px #962020, 0 0 40px #640707;
+    }
+}
+
+p {
+    font-size: 1.1vw;
+}
+
+label {
+    margin-left: 1%;
+    font-size: 1.1vw;
+}
+
+input[type=text],
+input[type=password] {
+    width: 97%;
+    padding: 1.5%;
+    margin: 1% 0;
+    border: none;
+    background: #f1f1f1;
+    font-size: 1vw;
+    font-family: 'Pixel';
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: rgb(202, 201, 201);
+    outline: none;
+}
+
+hr {
+    border: 1px solid #581919;
+    margin-bottom: 15px;
+}
+
+.registerbtn {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 1.5vw;
+    font-family: 'Pixel';
+}
+
+.registerbtn:hover {
+    opacity: 1;
+    background-color: rgb(59, 59, 59);
+}
+
+a {
+    color: #581919;
+}
+
+.signin {
+    text-align: center;
+    text-shadow: 0 0 px rgb(37, 37, 37);
+}
+
+#profesionBox {
+    width: 27%;
+    height: auto;
+    float: left;
+    margin-left: 15%;
+    font-size: 1.1vw;
+}
+
+#genderBox {
+    width: 26%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+    font-size: 1.1vw;
+}
+
+#hairColorBox {
+    width: 26%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+    font-size: 1.1vw;
+}
+
+#characterImage {
+    width: 27%;
+    height: 50%;
+    position: absolute;
+    right: -38%;
+    top: 28%;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    display: none;
+    background-size: 100% 100%;
+    background-image: url(../projekt_grafika/Walka/Gracz/Rycerz_Gif.gif);
+    box-shadow: 0 0 6px 4px rgb(42, 41, 44);
+}
+
+@keyframes image {
+    from {
+        top: -60%;
+    }
+    to {
+        top: 28%;
+    }
+}
+
+#badLogin {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 75%;
+    left: -34%;
+    background: rgba(206, 7, 7, 0.89);
+    border: solid 2px rgb(75, 3, 3);
+    border-radius: 20px;
+    padding: 0.5%;
+    padding-left: 2%;
+    font-size: 1vw;
+    display: none;
+}
+
+#badPassword {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 63.5%;
+    left: -34%;
+    background: rgba(206, 7, 7, 0.89);
+    border: solid 2px rgb(75, 3, 3);
+    border-radius: 20px;
+    padding: 0.5%;
+    padding-left: 2%;
+    font-size: 1vw;
+    display: none;
+}
+
+#badRepeatPassword {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 53%;
+    left: -34%;
+    background: rgba(206, 7, 7, 0.89);
+    border: solid 2px rgb(75, 3, 3);
+    border-radius: 20px;
+    padding: 0.5%;
+    padding-left: 2%;
+    font-size: 1vw;
+    display: none;
+}
+
+#badEmail {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 39%;
+    left: -34%;
+    background: rgba(206, 7, 7, 0.89);
+    border: solid 2px rgb(75, 3, 3);
+    border-radius: 20px;
+    padding: 0.5%;
+    padding-left: 2%;
+    font-size: 1vw;
+    display: none;
+}
+
+#gender {
+    width: 28%;
+    height: auto;
+    position: absolute;
+    bottom: 23%;
+    left: 36%;
+    background: rgba(206, 7, 7, 0.89);
+    border: solid 2px rgb(75, 3, 3);
+    border-radius: 20px;
+    padding: 0.5%;
+    padding-left: 2%;
+    font-size: 1vw;
+    text-align: center;
+    display: none;
+}
+
+#empty {
+    width: 100%;
+    float: left;
+    height: 25px;
+}
+
+@media screen and (max-width: 1250px) {}

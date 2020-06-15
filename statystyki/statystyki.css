@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url(../font/FSEX300.ttf);
+}
+
+#center {
+    background-image: url(graphics/Walka2_tlo_Gif.gif);
+}
+
+#left {
+    position: absolute;
+    width: 48%;
+    height: 53%;
+    top: 27%;
+    left: 2%;
+}
+
+#backgroundLeft {
+    position: absolute;
+    width: 48%;
+    height: 55%;
+    top: 26.5%;
+    left: 2%;
+    background-color: white;
+    opacity: 0.4;
+    border-radius: 5%;
+}
+
+#leftItems {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#rightItems {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.one {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+}
+
+.two {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+}
+
+.three {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+}
+
+.four {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(../Przedmioty/Ramka_Gif.gif);
+    background-size: 100% 100%;
+}
+
+#character {
+    background-image: url(graphics/Rycerz_nago_Gif.gif);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#experience {
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    border: solid 3px black;
+    left: 24.5%;
+    top: 106%;
+}
+
+#backgroundExp {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+#levelOfExperience {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: yellow;
+    z-index: 1;
+    top: 0;
+}
+
+#exp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: -4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Pixel';
+    font-size: 2.3vh;
+    z-index: 5;
+}
+
+#level {
+    font-family: 'Pixel';
+    position: absolute;
+    height: auto;
+    left: 58.5%;
+    top: 28.3%;
+    width: 35.6%;
+    text-align: center;
+    font-size: 2.1vw;
+    color: black;
+    text-shadow: 0px 0px 3px gold;
+    font-weight: bold;
+    z-index: 5;
+}
+
+#helmet {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#helmetCharacter {
+    width: 44%;
+    height: 31%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    top: 12.5%;
+}
+
+#armor {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#armorCharacter {
+    width: 50%;
+    height: 45%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 26.5%;
+    top: 27%;
+}
+
+#legs {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#legsCharacter {
+    width: 44%;
+    height: 39%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    top: 48%
+}
+
+#boot {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#bootCharacter {
+    width: 48%;
+    height: 35%;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: 28.2%;
+    top: 61.5%
+}
+
+#necklace {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#sword {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#swordCharacter {
+    width: 10%;
+    height: 24%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 31%;
+    top: 44.2%;
+    transform: rotate(-50deg);
+}
+
+#shield {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#shieldCharacter {
+    width: 17%;
+    height: 17%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 54.5%;
+    top: 51.5%;
+}
+
+#gloves {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#glovesCharacter {
+    width: 4%;
+    height: 4%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 38.2%;
+    top: 59.5%;
+    background-image: url(../Przedmioty/PalceNatural.gif);
+}
+
+.tooltip {
+    position: absolute;
+    width: auto;
+    font-size: 1.5vw;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120%;
+    height: auto;
+    background-color: rgb(90, 45, 9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1%;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 3;
+    font-size: 0.9vw;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* Tooltip - Sprawdzanie statystyk przedmiotów eq */
+
+.tooltipItem1 {
+    position: absolute;
+    left: 25%;
+    top: -2%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem2 {
+    position: absolute;
+    left: 25%;
+    top: 23%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem3 {
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem4 {
+    position: absolute;
+    left: 25%;
+    bottom: -1%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem5 {
+    position: absolute;
+    left: 30%;
+    top: -2%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem6 {
+    position: absolute;
+    left: 30%;
+    top: 23%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem7 {
+    position: absolute;
+    left: 30%;
+    bottom: 25%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tooltipItem8 {
+    position: absolute;
+    left: 30%;
+    bottom: -1%;
+    width: 45%;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.itemName {
+    position: absolute;
+    width: 83%;
+    height: auto;
+    left: 8.5%;
+    top: 6%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px black;
+    color: rgb(182, 59, 3);
+    text-align: center;
+    font-size: 1.2vw;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.itemPowerStat {
+    position: absolute;
+    width: 85%;
+    height: auto;
+    left: 8%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 2.2vh;
+}

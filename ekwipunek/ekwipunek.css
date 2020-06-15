@@ -1,0 +1,621 @@
+#center {
+    background-image: url(graphics/Walka2_tlo_Gif.gif);
+}
+
+#left {
+    position: absolute;
+    width: 48%;
+    height: 53%;
+    top: 27%;
+    left: 2%;
+}
+
+#backgroundLeft {
+    position: absolute;
+    width: 48%;
+    height: 55%;
+    top: 26%;
+    left: 2%;
+    background-color: white;
+    opacity: 0.4;
+    border-radius: 5%;
+}
+
+#leftItems {
+    width: 25%;
+    height: 100%;
+    float: left;
+    z-index: 10;
+}
+
+#rightItems {
+    width: 25%;
+    height: 100%;
+    float: left;
+    z-index: 10;
+}
+
+.one {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    z-index: 8;
+}
+
+.two {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+}
+
+.three {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    z-index: 12;
+}
+
+.four {
+    width: 90%;
+    height: 23%;
+    margin: 5% 5%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+}
+
+#character {
+    background-image: url(graphics/Rycerz_nago_Gif.gif);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 100%;
+    float: left;
+    z-index: 1;
+}
+
+#experience {
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    border: solid 3px black;
+    left: 24.5%;
+    top: 107%;
+}
+
+#backgroundExp {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+#levelOfExperience {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: yellow;
+    z-index: 1;
+    top: 0;
+}
+
+#textExperience {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Pixel';
+    font-size: 2.2vh;
+}
+
+#right {
+    width: 41%;
+    height: 52%;
+    position: absolute;
+    left: 58%;
+    top: 32%;
+}
+
+#backgroundRight {
+    width: 42%;
+    height: 53%;
+    position: absolute;
+    left: 56.7%;
+    top: 30.5%;
+    background-color: #fff;
+    opacity: 0.3;
+    border-radius: 5%;
+    border: solid black;
+}
+
+#item1 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item2 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25% 0.25% 0.25% 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item3 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25% 0.25% 0.25% 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item4 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item5 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item6 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item7 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item8 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#item9 {
+    width: 32%;
+    height: 32%;
+    margin: 0.25%;
+    background-image: url(graphics/Ramka_Gif.gif);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#helmet {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#helmetCharacter {
+    width: 44%;
+    height: 31%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    top: 12.5%;
+}
+
+#armor {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#armorCharacter {
+    width: 50%;
+    height: 45%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 26.5%;
+    top: 27%;
+}
+
+#legs {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#legsCharacter {
+    width: 44%;
+    height: 39%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    top: 48%
+}
+
+#boot {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#bootCharacter {
+    width: 48%;
+    height: 35%;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: 28.2%;
+    top: 61.5%
+}
+
+#necklace {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#sword {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#swordCharacter {
+    width: 10%;
+    height: 24%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 31%;
+    top: 44.2%;
+    transform: rotate(-50deg);
+}
+
+#shield {
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#shieldCharacter {
+    width: 17%;
+    height: 17%;
+    background-size: 100% 100%;
+    z-index: 3;
+    position: absolute;
+    left: 54.5%;
+    top: 51.5%;
+}
+
+#gloves {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#glovesCharacter {
+    width: 4%;
+    height: 4%;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 38.2%;
+    top: 59.5%;
+    background-image: url(../Przedmioty/PalceNatural.gif);
+}
+
+#positionItem1 {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#positionItem2 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem3 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem4 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem5 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem6 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem7 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem8 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#positionItem9 {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+
+/* Tooltip - Sprawdzanie statystyk przedmiotów eq */
+
+.tooltipItem1 {
+    position: absolute;
+    left: 25%;
+    top: -2%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.tooltipItem2 {
+    position: absolute;
+    left: 25%;
+    top: 23%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.tooltipItem3 {
+    position: absolute;
+    left: 25%;
+    top: 48%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.tooltipItem4 {
+    position: absolute;
+    left: 25%;
+    top: 73%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 8;
+}
+
+.tooltipItem5 {
+    position: absolute;
+    left: 35%;
+    top: -2%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.tooltipItem6 {
+    position: absolute;
+    left: 35%;
+    top: 23%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.tooltipItem7 {
+    position: absolute;
+    left: 35%;
+    top: 48%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.tooltipItem8 {
+    position: absolute;
+    left: 35%;
+    top: 73%;
+    width: 40%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+    z-index: 8;
+}
+
+.itemName {
+    position: absolute;
+    width: 83%;
+    height: 15%;
+    left: 8.5%;
+    top: 4%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px white;
+    color: rgb(182, 59, 3);
+    text-align: center;
+    font-size: 1.7vh;
+}
+
+.itemPowerStat {
+    position: absolute;
+    width: 85%;
+    height: 15%;
+    left: 8%;
+    top: 25%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 2.2vh;
+}
+
+.itemLuckStat {
+    position: absolute;
+    width: 85%;
+    height: 15%;
+    left: 8%;
+    top: 42%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 2.2vh;
+}
+
+.itemArmorStat {
+    position: absolute;
+    width: 85%;
+    height: 15%;
+    left: 8%;
+    top: 59%;
+    font-family: 'Pixel';
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 2.2vh;
+}
+
+.tooltipItem1Eq {
+    position: absolute;
+    left: -50%;
+    top: 1%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem2Eq {
+    position: absolute;
+    left: -17.6%;
+    top: 1%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem3Eq {
+    position: absolute;
+    left: 15.5%;
+    top: 1%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem4Eq {
+    position: absolute;
+    left: -50%;
+    top: 34%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem5Eq {
+    position: absolute;
+    left: -17.6%;
+    top: 34%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem6Eq {
+    position: absolute;
+    left: 15.5%;
+    top: 34%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem7Eq {
+    position: absolute;
+    left: -50%;
+    top: 66%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem8Eq {
+    position: absolute;
+    left: -17.6%;
+    top: 66%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}
+
+.tooltipItem9Eq {
+    position: absolute;
+    left: 15.5%;
+    top: 66%;
+    width: 50%;
+    height: 30%;
+    background-image: url(../projekt_grafika/Inne/Statistic.gif);
+    background-size: 100% 100%;
+}

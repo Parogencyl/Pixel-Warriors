@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../style.css" rel="stylesheet">
+    <link href="ustawienia.css" rel="stylesheet">
+    <link href="../mediaStyle.css" rel="stylesheet">
+
+    <title> Pixel Warriors </title>
+</head>
+
+<body>
+    <script src="../equipment.js"></script>
+
+    <article>
+
+        <a href="../main.html">
+            <div id="logo"> </div>
+        </a>
+
+        <div id="menu">
+            <div id="level"> LVL: 135</div>
+            <div id="rubin"> RB: 2086 </div>
+            <div id="buttons">
+                <a href="../statystyki/statystyki.php">
+                    <div class="button" id="top">
+                        <div class="textPosition"> Statystyki </div>
+                    </div>
+                </a>
+
+                <a href="../ekwipunek/ekwipunek.php">
+                    <div class="button">
+                        <div class="textPosition"> Ekwipunek </div>
+                    </div>
+                </a>
+
+                <a href="../karczma/tawerna.php">
+                    <div class="button">
+                        <div class="textPosition"> Tawerna </div>
+                    </div>
+                </a>
+
+                <a href="../ranking/ranking.html">
+                    <div class="button">
+                        <div class="textPosition"> Ranking </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="center">
+            <div id="settings">
+                <div id="sound"> Efekty dźwiękowe: </div>
+                <div id="soundImg" onclick="soundOnOff()" style="background-image: url(../projekt_grafika/Inne/music_on.gif)"></div>
+                <div style="width: 100%; height: 10%; margin-top: 14%;">Email: </div>
+                <div id="email"> boubou@gmai.com</div>
+                <div style="width: 100%; height: 10%; margin-top: 6%;">Nowy email: </div>
+                <input type="email" id="newEmail">
+                <button type="button" id="changeEmail">Zmień</button>
+            </div>
+        </div>
+
+        <div id="footer">
+
+            <a href="">
+                <div class="button" id="buttonLog">
+                    <div class="textPosition"> Wyloguj </div>
+                </div>
+            </a>
+
+            <div id="nick"> Nick: Parogencyl </div>
+
+            <a href="ustawienia.html">
+                <div class="button" id="buttonLog" style="margin-left: 50%">
+                    <div class="textPosition" style="text-shadow: 1px 1px 1px red;"> Ustawienia </div>
+                </div>
+            </a>
+
+        </div>
+
+        <script src="ustawienia.js"></script>
+    </article>
+
+</body>
+
+</html>
