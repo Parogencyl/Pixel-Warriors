@@ -1,9 +1,9 @@
 # Pixel-Warriors
-Gra przeglądarkowa stworzona według własnego pomysłu. Projekt jednak nie został ukończony w 100% przez ilość zajęć na uczelni.
+A browser game created according to your own idea. However, the project was not completed in 100% by the number of classes at the university.
 
 Link: http://www.pixelwarriors.pl/
-Istnieje możliwość zalogowania się na konto testowe bez podawania loginu i hasła w celu sprawdzenia działania gry.
+It is possible to log in to the test account without providing a login and password to test the game.
 
-Gra w której gracze walcząc z potworami zdobywają nagrody. Dzięki temu mogą ulepszać swoje umiejętności, a także zdobyć nowe przedmioty, a także walczyć z innymi graczami.
+A game in which players fight monsters and win prizes. This allows them to improve their skills, as well as gain new items and fight against other players.
 
-Pixel Warriors to fantastyczna gra RPG przenosząca gracza w czasy średniowieczne. Gracz przemierzając świat walczy z wszelkiego rodzaju napotkanymi potworami oraz rywalizuje z innymi graczami o miano najlepszego gracza w świecie pixeli.
+Pixel Warriors is a fantastic RPG game that takes the player to medieval times. Players as they travel through the world fight against all kinds of monsters they encounter and compete with other players for the title of the best player in the world of pixels.
