@@ -1,6 +1,8 @@
 # Pixel-Warriors
 A browser game created according to your own idea. However, the project was not completed in 100% by the number of classes at the university.
 
+Technologies used: HTML, CSS, JavaScript, MySQL, PHP
+
 Link: http://www.pixelwarriors.pl/
 It is possible to log in to the test account without providing a login and password to test the game.
 
